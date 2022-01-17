@@ -5,26 +5,133 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Atlas</title>
+    <style>
+        body {
+            background-color: #d8d6d6;
+        }
+        
+        #header {
+            background-color: #d4d1d1;
+            position: relative;
+            top: 0;
+            display: flex;
+            width: 100%;
+            justify-content: space-between;
+            border-bottom: 2px solid #979797;
+        }
+        
+        nav ul {
+            list-style-type: none;
+            display: flex;
+            justify-content: space-around;
+            margin-right: 25%;
+            padding: 10px;
+        }
+        
+        nav ul li {
+            padding: 10px;
+        }
+        
+        nav a {
+            text-decoration: none;
+            color: black;
+            font-size: 20px;
+            font-family: 'Arial', sans-serif;
+        }
+        
+        #hero {
+            background-color: #d4d1d1;
+            width: 100%;
+            height: 50vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-bottom: 1px solid black;
+        }
+        
+        #table {
+            width: 70%;
+            margin: 10px auto;
+            border-bottom: 1px solid black;
+        }
+        
+        table {
+            border: 1px solid black;
+            width: 50%;
+            margin: 0 auto;
+        }
+        
+        tbody {
+            background-color: white;
+        }
+        
+        th {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px;
+        }
+        
+        td {
+            padding: 10px;
+        }
+        
+        tr:nth-child(even) {
+            background-color: #f2f2f2
+        }
+    </style>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="">
 </head>
 
 <body>
-    <header>
+    <header id="header">
         <h1 class="head">ATLAS</h1>
         <nav class="navbar">
             <ul>
-                <li>Home</li>
-                <li>Services</li>
-                <li>Contact Us</li>
-                <li>About Us</li>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="lists.html">Lists</a></li>
+                <li><a href="tables.html">Tables</a></li>
+                <li><a href="classes.html">Classes</a></li>
             </ul>
         </nav>
     </header>
-    <div class="hero">
-        <img src="img/hero.jpg" alt="">
+    <div id="hero">
+        <img src="" alt="">
         <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores nihil non rerum exercitationem quidem.</p>
+    </div>
+
+    <div id="table">
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>Meals</th>
+                    <th>Prices</th>
+                    <th>Serving</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td scope="row">Potatoes</td>
+                    <td>100</td>
+                    <td>Single</td>
+                </tr>
+                <tr>
+                    <td scope="row">Roasted Chicken</td>
+                    <td>350</td>
+                    <td>Family size</td>
+                </tr>
+                <tr>
+                    <td scope="row">Potatoes</td>
+                    <td>100</td>
+                    <td>Single</td>
+                </tr>
+                <tr>
+                    <td scope="row">Roasted Chicken</td>
+                    <td>350</td>
+                    <td>Family size</td>
+            </tbody>
+        </table>
     </div>
 </body>
 

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Forms</title>
+    <style>
+        form {
+            background-color: #f0f0f0;
+            width: 100%;
+            padding: 25px;
+        }
+        
+        form label {
+            display: inline;
+            margin-bottom: 10px;
+        }
+        
+        form input {
+            display: inline;
+            margin-bottom: 10px;
+        }
+    </style>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="">
+</head>
+
+<body>
+    <form>
+        <fieldset>
+            <legend>Registration Form</legend>
+            <div class="form-group">
+
+                <label for="firstName">First Name: </label>
+                <input type="text" placeholder="Enter Your First Name"><br>
+
+                <label for="SurName">Surname: </label>
+                <input type="text" placeholder="Enter Your Surname"><br>
+                <label for="email">Email address</label>
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+                <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small><br>
+                <label for="password">Password</label>
+                <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password"><br>
+                <label for="Male">Male</label>
+                <input type="radio" id="Male" name="gender">
+                <label for="Female">Female</label>
+                <input type="radio" id="Female" name="gender">
+                <label for="Other">Other</label>
+                <input type="radio" id="Other" name="gender"><br>
+
+                <label for="class">Select your Class</label>
+                <select name="class" id="class">
+                    <option value="">Firefox</option>
+                    <option value="">Explore</option>
+                    <option value="">Netscape</option>
+                    <option value="">Other</option>
+                </select>
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+        </fieldset>
+    </form>
+</body>
+
+</html>

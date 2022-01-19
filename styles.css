@@ -8,8 +8,7 @@ body {
 }
 
 header {
-    height: 20vh;
-    border-bottom: 1px solid #ccc;
+    height: 15vh;
 }
 
 header ul {
@@ -19,7 +18,7 @@ header ul {
     overflow: hidden;
     position: absolute;
     right: 10%;
-    top: 10%;
+    top: 7%;
 }
 
 header ul li {
@@ -41,7 +40,7 @@ header ul li a:hover {
 header h1 {
     color: rgb(222, 245, 16);
     position: absolute;
-    top: 4.5%;
+    top: 1%;
     font-size: 2.5rem;
 }
 

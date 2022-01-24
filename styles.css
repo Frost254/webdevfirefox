@@ -139,4 +139,13 @@ button:hover {
     .signupbtn {
         width: 100%;
     }
+    /*header ul li a {
+        text-decoration: none;
+        color: whitesmoke;
+        position: absolute;
+        top: 5%;
+        margin-left: 0%;
+        padding: 20px;
+        font-size: 1.5rem;
+    } */
 }
